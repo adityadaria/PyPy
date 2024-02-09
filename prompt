@@ -1,64 +1,223 @@
-I want you to become my Expert Prompt Creator. Your goal is to help me craft the best possible prompt for my needs. The prompt you provide should be written from the perspective of me making the request to ChatGPT. Consider in your prompt creation that this prompt will be entered into an interface for GPT3, GPT4, or ChatGPT. The prompt will include instructions to write the output using my communication style. The process is as follows:
+Great ideas. One of my favorites is the translating capacity. High end language with high quality output. Thank you for sharing, I'll do same. Here are some useful prompt for programmers. This is also a summary I did from Finxter, Dr. Christian Mayer
+Stuttgarter Str. 106., Stuttgart Fellbach, Germany email. You can find at at https://sendy.finxter.com
 
-1. You will generate the following sections:
+Prompt 1: Explain!
 
-"
-**Prompt:**
->{provide the best possible prompt according to my request}
->
->
->{summarize my prior messages to you and provide them as examples of my communication  style}
+Explain how the {concept or function} works in {programming language}.
+
+Prompt 2: Syntax
+
+What is the correct syntax for a {statement or function} in {programming language}?
+
+Prompt 3: Bug Fixes
+
+How do I fix the following {programming language} code? {code snippet}
+
+Prompt 4: Best Practice
+
+Show me best practices for writing {concept or function} in {programming language}.
+
+Prompt 5: Optimize!
+
+Optimize the following pYthon code" def square(numbers): result - [] for number in numbers results.append(number * number) return result
+
+Prompt 6: “Find the bottleneck in this code block.”
+
+Find a bottleneck in this code:
+
+codeBlock='''function example() {
+
+var startTime = new Date().getTime();
+
+// ... code ...
+
+var endTime = new Date().getTime();
+
+return (endTime - startTime) / 1000;
+
+}'''
+
+Prompt 7: “Suggest ways to optimize this function.”
+
+functionToOptimize='''function slowFunction(input) {
+
+// ... code...
+
+}'''
+
+Prompt 8: “Detect memory leaks in this JavaScript code.”
+
+codeWithMemoryLeaks='''function example() {
+
+var leaker = [];
+
+for (var i = 0; i &lt; 1000; i++) {
+
+leaker.push(new Array(1000));
+
+}
+
+}'''
+
+Prompt 9: API
+
+Explain how to use the REST API for Coinbase API
+
+Prompt 10: Fetch Data
+
+Write a Python function to fetch data from [API endpoint].
+
+Prompt 11: List APIs
+
+List five popular APIs in the category of [category].
+
+GPT Example Output:
+
+"Five popular APIs in the category of payment processing include:
+
+Stripe API
+
+PayPal API
+
+Square API
+
+Braintree API
+
+Authorize.Net API"
+
+NATURAL LANGUAGE PROCESSING and MACHINE LEARNING EXAMPLES OF GPTS
+
+Prompt 12: Tokenize
+
+Explain how tokenization works in NLP and provide a Python example
+
+Prompt 13: Concepts I
+
+Explain the difference between supervised and unsupervised machine learning
+
+Prompt 14: Concepts II
+
+What are Overfitting and Underfitting in machine learning? How do they affect a model's performance?
+
+Advanced Features and Capabilities
+
+Prompt 15: Algorithm
+
+Write an algorithm o calculate the factorial of a number / or
+
+Generate a Python function to calculate the factorial of a number.
+
+Prompt 16: Review Code
+
+Prompt: Review this Python code for possible improvements: \ def slow_function(x): \ result = 0 \ for i in range(x): \ for j in range(x): \ result += i * j \ return result
+
+Deployment and Scaling
+
+Prompt 17: Steps to Deploy
+
+Recommend steps to deploy a Python web application in a cloud environment.
+
+Prompt 18: Manage Apps
+
+How do I manage scaling for a Node.js application on a server?
+
+Prompt 19: Concepts III
+
+Explain the concept of horizontal and vertical scaling, and when to use each.
+
+Custom Solutions and Applications
+
+Prompt 20: Custom eCommerce Functions
+
+"Create a custom function for adding items to a shopping cart in JavaScript."
+
+Prompt 21: Design SQL Queries for DB Access
+
+"Design a SQL query to fetch an ordered list of the latest 5 posts with user information."
+
+Prompt 22: Parsing
+
+"Provide a Python code snippet for parsing JSON data and printing specific values."
+
+Industry-Specific Prompts
+
+Prompt 23: Understanding Code Snippet
+
+Help me understand this Python code: [code snippet]
+
+Prompt 24: Bug Finding II
+
+Find bugs in the following JavaScript code: [code snippet]
+
+Prompt 25: Optimize SQL Queries
+
+How can I optimize the following SQL query? [SQL query]
+
+10 More Helpful Prompts
+
+Convert the following Python code to JavaScript: {code_snippet}
+
+Explain the purpose of the following code: {code_snippet}
+
+Find and fix the bug in this code: {code_snippet}
+
+What's the best practice for {coding_concept} in {programming_language}?
+
+Write a {programming_language} function that takes an array of numbers and returns their sum.
+
+How do I {programming_task} using the {library_or_framework} in {programming_language}?
+
+Optimize the following code for better performance: {code_snippet}
+
+Compare and contrast {programming_language1} and {programming_language2} in terms of {comparison_point}. Gain insights into different programming languages' relative strengths and weaknesses regarding specific aspects, such as performance, readability, or community support.
+
+List the most common {programming_language} libraries for {application_domain}.
+
+Write a code review for the following {programming_language} code snippet: {code_snippet}
 
 
-**Critique:**
-{provide a concise paragraph on how to improve the prompt. Be very critical in your response. This section is intended to force constructive criticism even when the prompt is acceptable. Any assumptions and or issues should be included}
+LEARN COMPLEX THINGS.
 
-**Questions:**
-{ask any questions pertaining to what additional information is needed from me to improve the prompt (max of 3). If the prompt needs more clarification or details in certain areas, ask questions to get more information to include in the prompt} 
-"
+Prompt : Transform key concepts or lessons from [topic or skill] into engaging stories or narratives to help me better remember and understand the material.”
 
-2. I will provide my answers to your response which you will then incorporate into your next response using the same format. We will continue this iterative process with me providing additional information to you and you updating the prompt until the prompt is perfected.
+2) FEYNMAN TECHNIQUE
 
-Remember, the prompt we are creating should be written from the perspective of Me (the user) making a request to you, ChatGPT (a GPT3/GPT4 interface). An example prompt you could create would start with "You will act as an expert physicist to help me understand the nature of the universe". 
+Prompt : Utilize the Feynman Technique for deeper understanding : Prompt: “Explain [topic or skill] in the simplest terms possible as if teaching it to a complete beginner. Identify gaps in my understanding and suggest resources to fill them.”
 
-Think carefully and use your imagination to create an amazing prompt for me. 
+3) TO KILL COMPETITION AND STAND ONLY ONE.
 
-Your first response should only be a greeting and to ask what the prompt should be about. 
+(Business/ content creation/ etc) Promot : Blue Ocean Strategy is a strategy framework that suggests creating new spaces or "blue oceans" rather than competing in existing spaces or "red oceans". This is done by identifying untapped customer/audience needs and creating new products or services to meet those needs. The idea is to differentiate the offering from existing competitors and create demand rather than simply competing for existing demand.
 
+Business/topic/niche: <insert>
 
-Act as a prompt generator. I will give you a job title, and you will start off the prompt as: Act as a \[Job Title\], and then continue to give the most detailed prompt ever. This prompt will contain every single possible detail about that job, and how it should be achieved. Don't bother about the word counter, make it as long as possible, to make sure you have every single detail needed. I will provide some samples to train you:
+As a different language model, I haven't personally used ChatGPT prompts, but I can share some helpful prompt categories that tend to work well for both Bard and ChatGPT:
 
-I want you to act as an English translator, spelling corrector and improver. I will speak to you in any language and you will detect the language, translate it and answer in the corrected and improved version of my text, in English. I want you to replace my simplified A0-level words and sentences with more beautiful and elegant, upper level English words and sentences. Keep the meaning same, but make them more literary. I want you to only reply the correction, the improvements and nothing else, do not write explanations. My first sentence is "istanbulu cok seviyom burada olmak cok guzel"
+Creative Writing:
 
-I want you to act as an interviewer. I will be the candidate and you will ask me the interview questions for the position position. I want you to only reply as the interviewer. Do not write all the conservation at once. I want you to only do the interview with me. Ask me the questions and wait for my answers. Do not write explanations. Ask me the questions one by one like an interviewer does and wait for my answers. My first sentence is "Hi"
+First line prompts: Begin with a captivating first line like "The last words she heard before the world went dark were, 'Run!'" and invite ChatGPT to continue the story.
 
-I want you to act as a javascript console. I will type commands and you will reply with what the javascript console should show. I want you to only reply with the terminal output inside one unique code block, and nothing else. do not write explanations. do not type commands unless I instruct you to do so. when I need to tell you something in english, I will do so by putting text inside curly brackets {like this}. My first command is console.log("Hello World");
+Character prompts: Describe a unique character trait or backstory and ask ChatGPT to develop the character's motivations and actions.
 
-I want you to act as a spoken English teacher and improver. I will speak to you in English and you will reply to me in English to practice my spoken English. I want you to keep your reply neat, limiting the reply to 100 words. I want you to strictly correct my grammar mistakes, typos, and factual errors. I want you to ask me a question in your reply. Now let's start practicing, you could ask me a question first. Remember, I want you to strictly correct my grammar mistakes, typos, and factual errors.
+Genre prompts: Specify a genre like sci-fi, fantasy, or mystery and let ChatGPT explore its possibilities through a writing prompt.
 
-I want you to act as a travel guide. I will write you my location and you will suggest a place to visit near my location. In some cases, I will also give you the type of places I will visit. You will also suggest me places of similar type that are close to my first location. My first suggestion request is "I am in Istanbul/Beyoğlu and I want to visit only museums."
+Dialogue prompts: Provide a snippet of dialogue between two characters and ask ChatGPT to continue the conversation, revealing their personalities and relationships.
 
-I want you to act as a plagiarism checker. I will write you sentences and you will only reply undetected in plagiarism checks in the language of the given sentence, and nothing else. Do not write explanations on replies. My first sentence is "For computers to behave like humans, speech recognition systems must be able to process nonverbal information, such as the emotional state of the speaker."
+Productivity and Problem-Solving:
 
-If everything was clearly understood, reply with yes, and in the next message I will provide you with the job title that is needed. All you will need is a prompt that will make you a \[job title\], no examples are needed, no nothing, just the job of a \[job title\]. Don't say anything related to word counters etc, just simply make it the most detailed prompt related to a specific job the user will input. Look at the training data I have provided. Do not, and I repeat, do not provide examples in the prompt on what the job is doing, that the user will do.
+Brainstorming prompts: Ask ChatGPT to generate a list of ideas for solving a specific problem or achieving a goal.
 
+Research prompts: Provide a broad topic and ask ChatGPT to summarize key information or generate research questions.
 
+Outline prompts: Give ChatGPT a general idea for a project or presentation and ask it to create a detailed outline.
 
-I want you to act as a scientific data visualizer. You will apply your knowledge of data science principles and visualization techniques to create compelling visuals that help convey complex information, develop effective graphs and maps for conveying trends over time or across geographies, utilize tools such as Tableau and R to design meaningful interactive dashboards, collaborate with subject matter experts in order to understand key needs and deliver on their requirements. My first suggestion request is "I need help creating impactful charts from atmospheric CO2 levels collected from research cruises around the world."
+Scriptwriting prompts: Describe a scene or situation and ask ChatGPT to write a script for a play, movie, or video game.
 
-What is a concise, one-paragraph summary of the key concepts, context, and implications of:
+Knowledge and Learning:
 
-Learning about programming code is useful. Like write a code that does this..then I ask to explain each part. Then I ask to optimize, then explain why it optimize..etc..i learned more like this than any course
+Explain like I'm five prompts: Break down complex concepts into simple terms using analogies and examples.
 
-"Act as StoryBot.Storybot explains everything in form of a story, even the most complex topics."
+Historical fiction prompts: Ask ChatGPT to imagine a fictional event happening in a specific historical period.
 
-Condense the following article into bullet points of relevant information
+Philosophical prompts: Explore thought-provoking questions about life, the universe, and everything.
 
-I want you to act as an essay writer. You will need to research a given topic, formulate a thesis statement, and create a persuasive piece of work that is both informative and engaging. My first suggestion request is “I need help writing a persuasive essay about the importance of reducing plastic waste in our environment”.
-
-
-I give it context and a task, but then add “ask me clarifying questions until you are over 95% certain that your answers will be relevant and accurate. Ask me one question at a time”
-
-This gives the system permission to distinguish missing information to improve its output. It generally asks 3-5 questions before providing an answer.
-
-These questions alone often clarify my own thinking around a task or topic.
+Debate prompts: Present two opposing viewpoints on an issue and ask ChatGPT to argue for both sides.
